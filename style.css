@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Rubik', sans-serif;
-    height: 100vh;
+    height: 1000px;
     overflow: hidden;
 }
 
@@ -20,8 +20,9 @@ img {
 }
 
 header h1 {
-    margin-top: 100px;
-    font-size: 3rem;
+    width: 100%;
+    margin: 100px auto 85px auto;
+    font-size: 50px;
     text-align: center;
     color: white;
     font-weight: 900;
@@ -29,19 +30,13 @@ header h1 {
 }
 
 .main-app {
-    width: 50vh;
-    height: 42.2vh;
-    margin: 100px auto;
+    width: 400px;
+    margin:auto;
     background-color: rgb(240, 248, 250, 0.6);
     padding: 20px;
     text-align: center;
     opacity: 0.5;
 }
-
-.main-app>* {
-    margin-bottom: 20px;
-}
-
 
 ::placeholder {
     font-weight: 700;
@@ -70,7 +65,6 @@ input[type=text] {
 
 .main-weather {
     color: rgb(0, 0, 0);
-    font-weight: 900;
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
     padding: 20px;
     line-height: 2rem;
@@ -90,9 +84,11 @@ input[type=text] {
     text-shadow: 2px 2px 5px rgb(85, 16, 16);
 
 }
-
+.search-input{
+    margin-bottom: 20px;
+}
 .weather-status {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .temp {
